@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prashantS22/static/css/main.a1f9951c.css",
+    "main.js": "/prashantS22/static/js/main.662949b9.js",
+    "static/js/787.128fc6e9.chunk.js": "/prashantS22/static/js/787.128fc6e9.chunk.js",
+    "index.html": "/prashantS22/index.html",
+    "main.a1f9951c.css.map": "/prashantS22/static/css/main.a1f9951c.css.map",
+    "main.662949b9.js.map": "/prashantS22/static/js/main.662949b9.js.map",
+    "787.128fc6e9.chunk.js.map": "/prashantS22/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1f9951c.css",
+    "static/js/main.662949b9.js"
+  ]
+}
