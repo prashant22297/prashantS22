@@ -1,0 +1,63 @@
+.about-me-section {
+  width: 80%;
+  margin-inline: auto;
+}
+.about-me-text {
+  font-family: "Ubuntu";
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.about-me-subtext {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+.about-me-subtext1 {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+}
+.few-highlights {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  padding-block: 12px;
+  padding-left: 23px;
+}
+.few-text {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 1.4rem;
+  /* opacity: 0.9;  */
+}
+.few-list {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+.lottie-1 {
+  width: 400px;
+  height: 400px;
+}
+
+@media all and (max-width: 786px) {
+  .about-me-text {
+    font-size: 2.4rem;
+  }
+  .about-me-subtext {
+    font-size: 1.2rem;
+  }
+  .lottie-1 {
+    width: 250px;
+    height: 250px;
+  }
+  .about-me-section {
+    width: 84%;
+  }
+}

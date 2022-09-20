@@ -1,0 +1,70 @@
+/* about-me-text --> defined in profile.css */
+
+.resume-outer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-app-color);
+  color: #fff;
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+}
+
+.resume-section {
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 20px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 10px 10px 31px 2px #1c1c1c;
+}
+/* .resume-left-section {
+  width: 70%;
+  margin-inline: auto;
+} */
+.resume-option-items {
+  width: 1%;
+  transition: all 0.3s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000;
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.resume-option-items:hover {
+  width: 100%;
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  color: white;
+}
+.icons-span {
+  padding-block: 24px;
+  padding-inline: 24px;
+}
+/* selected */
+.selected {
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  width: 100%;
+  color: white;
+}
+.bg-new {
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  /* width: 100%; */
+  color: white;
+}
+
+@media all and (max-width: 786px) {
+  .resume-section {
+    width: 91%;
+  }
+}

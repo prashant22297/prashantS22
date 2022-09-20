@@ -1,0 +1,50 @@
+.contact-me-section {
+  /* color: #fff; */
+}
+.contact-me-card {
+  background: var(--primary-app-color);
+  width: 80%;
+  box-shadow: 10px 10px 63px 4px rgb(243 240 240);
+  height: auto;
+  margin-inline: auto;
+  color: #fff;
+}
+.get-in-touch {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 2rem;
+}
+.input-label {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.contact-right {
+  /* background: rgb(0, 7, 6); */
+  background: var(--secondary-app-color);
+  box-shadow: 4px 4px 15px 5px rgb(243 240 240);
+  border-radius: 20px;
+  /* width: 605; */
+  padding: 24px;
+  margin-block: 24px;
+}
+
+.anim-contact {
+  width: 300px;
+  height: 300px;
+}
+
+.submit-success {
+  /* display: none; */
+  text-align: center;
+}
+@media all and (max-width: 786px) {
+  .contact-me-card {
+    width: 91%;
+  }
+  .anim-contact {
+    width: 200px;
+    height: inherit;
+  }
+}

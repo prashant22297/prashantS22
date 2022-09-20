@@ -1,0 +1,17 @@
+.progress {
+  background-color: red;
+  width: 250px;
+  height: 20px;
+  border-radius: 7px;
+  /* margin-inline: 20px; */
+}
+.progress-new {
+  background: #1c1c1c;
+  height: 20px;
+}
+.technology {
+  font-family: "Ubuntu";
+  font-size: 1.4rem;
+  color: #1c1c1c;
+  text-transform: capitalize;
+}

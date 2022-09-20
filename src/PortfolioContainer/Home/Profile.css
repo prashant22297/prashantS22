@@ -1,0 +1,223 @@
+a {
+  text-decoration: none !important;
+}
+.profile {
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+.nav-items {
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+.brand-name {
+  font-family: "oswald";
+  color: white;
+  font-size: 1.8rem;
+}
+.px-10 {
+  padding-inline: 40px;
+}
+.profile-2 {
+  padding-top: 40px;
+}
+.primary-text {
+  padding-top: 80px;
+  text-align: center;
+}
+.primary-text-before-name {
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.primary-text-name {
+  color: #fffb00;
+  font-size: 22px;
+}
+.primary-text-roles {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+}
+.primary-text-subheading {
+  font-family: "Open sans";
+  color: #fff;
+  font-size: 1.1rem;
+}
+.btn-hire-me {
+  font-size: 1.1rem;
+  font-family: "Ubuntu";
+  color: #fff;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out infinite;
+}
+.btn-hire-me:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  background-color: #fffb00;
+  color: #1c1c1c;
+}
+.btn-resume-me {
+  font-size: 1.1rem;
+  font-family: "Ubuntu";
+  color: #fff;
+  background: red;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-resume-me:hover {
+  transform: translateY(-5px);
+  animation: Anim1 1s ease-in-out forwards;
+  /* background-color: #fffb00;
+    color: #1c1c1c; */
+  color: #fff;
+}
+.profile-image {
+  width: 280px;
+  border-radius: 50%;
+  display: flex;
+  object-fit: contain;
+  justify-content: center;
+  padding-bottom: 12px;
+  border: 1px solid white;
+}
+@keyframes Anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes Anim1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* Mobile responsive */
+.px-9 {
+  padding-inline: 90px;
+  padding-top: 30px;
+}
+/* created flex thing  */
+.flex-rows {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-new {
+}
+
+.nav-mobile {
+  display: none;
+}
+@media all and (max-width: 786px) {
+  .flex-rows {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navbar-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    transform: translateX(-700px);
+  }
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-fixed-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 50;
+    /* transform: translateX(-700px); */
+  }
+  .px-9 {
+    padding-inline: 0px;
+  }
+  .nav-items {
+    padding-block: 20px;
+  }
+  .brand-name {
+    font-size: 1.4rem;
+    padding-inline: 22px;
+  }
+  .bars {
+    height: 4px;
+    width: 40px;
+    background: #fff;
+    float: right;
+    z-index: 33;
+    transform: translateY(22px);
+  }
+  .bars::before {
+    display: block;
+    position: relative;
+    top: 9px;
+    content: "";
+    background: #fff;
+    color: #fff;
+    height: 4px;
+    width: 40px;
+  }
+  .bars::after {
+    display: block;
+    position: relative;
+    top: 14px;
+    content: "";
+    background: #fff;
+    color: #fff;
+    height: 4px;
+    width: 40px;
+  }
+  .nav-mobile {
+    width: 100vw;
+    height: 63px;
+    position: fixed;
+    display: block;
+    z-index: 44;
+  }
+  .primary-text-roles {
+    font-size: 1.6rem;
+  }
+  .primary-text-before-name {
+    font-size: 1.1rem;
+  }
+  .primary-text-name {
+    font-size: 21px;
+  }
+  .primary-text-subheading {
+    font-size: 1rem;
+    justify-content: center;
+  }
+  .btn-hire-me,
+  .btn-resume-me {
+    font-size: 0.9rem;
+    padding: 7px 20px;
+  }
+}

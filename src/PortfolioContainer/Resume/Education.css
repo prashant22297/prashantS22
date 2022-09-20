@@ -1,0 +1,32 @@
+.education-div {
+}
+.university-name {
+  font-family: "Ubuntu";
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.university-degree {
+  font-family: "Ubuntu";
+  color: #1c1c1c;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.year-passed {
+  font-family: monospace;
+  font-size: 1rem;
+  background: #fffb00;
+  color: #1c1c1c;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+@media all and (max-width: 786px) {
+  .university-name {
+    font-size: 0.95rem;
+  }
+  .university-degree {
+    font-size: 0.65rem;
+  }
+}
